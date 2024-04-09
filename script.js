@@ -12,7 +12,6 @@ button.addEventListener("click", (e) => {
     if(list == ""){
        alert("Enter Task");
     }else{
-        console.log(list);
         const listItem = document.createElement("li");
         listItem.innerHTML = list;
         taskList.append(listItem);
