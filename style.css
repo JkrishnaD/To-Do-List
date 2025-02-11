@@ -96,6 +96,3 @@ ul li.check{
 ul li.check::before{
     content: "☑";
 }
-
-
-
